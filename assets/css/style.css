@@ -17,6 +17,22 @@
     margin: 5px;
     float: left;
   }
+
+  .background{
+    background-image: url("/assets/images/Wood.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .profile-img {
+    display: block;
+    margin: 20px 10px;
+    height: 150px; 
+    width: 300px;
+    float: left;
+    margin-top: 100px;
+  }
   
   main {
     padding: 60px 0;
@@ -44,6 +60,7 @@
   header {
     position: fixed;
     border-bottom: 10px solid #cc5612;
+    margin-top: 10px;
   }
   
   footer {
