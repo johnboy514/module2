@@ -228,3 +228,16 @@
     background-position: center;
     background-size: cover;
   }
+
+  /* Media */
+
+  @media screen and (min-width: 992px) {
+    header {
+      width: 100%;
+    }
+  
+    .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
