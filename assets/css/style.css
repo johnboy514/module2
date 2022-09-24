@@ -161,21 +161,11 @@
   .main-section{
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
-
-  /* Work section code */
-  .work-section{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 1000px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-  }
 
   /* Grid layout */
   .grid-container {
@@ -237,6 +227,24 @@
     .grid-container {
       display: inline;
     }
+    body {
+      font-size: 15px;
+    }
+    a:link, a:visited {
+      padding: 0 24px;
+    }
+    li {
+      padding: 10px;
+    }
+    header, 
+    footer {
+      height: 60px;
+      line-height: 60px;
+    }
+    .main-sections {
+      margin: 20px 0 0 150px;
+      padding: 50px;
+    }
   }
 
   /* Large smartphones - navbar changes color */
@@ -244,4 +252,16 @@
     header {
       background: green;
     }
+    body {
+      font-size: 10px;
+    }
+    .main-section{
+      margin-bottom: 20px;
+      padding: 50px;
+      height: auto;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: #0072bb;
+      color: #ffffff;
+    }
+    
   }
