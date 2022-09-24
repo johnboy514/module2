@@ -19,7 +19,7 @@
   }
 
   .background{
-    background-image: url("/assets/images/Wood.jpg");
+    background-image: url("../images/Wood.jpg");
     background-size: cover;
     height: 300px;
     margin-bottom: 20px;
