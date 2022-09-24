@@ -230,14 +230,18 @@
   }
 
   /* Media */
-
-  @media screen and (min-width: 992px) {
+  @media screen and (max-width: 992px) {
     header {
-      width: 100%;
+      background: #772014;
     }
-  
-    .card-column {
-      flex: 0 0 33.333%;
-      max-width: 33.333%;
+    .grid-container {
+      display: inline;
+    }
+  }
+
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    header {
+      background: green;
     }
   }
