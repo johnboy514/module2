@@ -26,6 +26,7 @@ Example images are listed below:
 ![Nav bar](assets/images/About-me-highlighted.png)
 ![Nav bar](assets/images/Module-Challenge-1-Highlight.png)
 ![Nav bar](assets/images/Contact-Me-Underline.png)
+![Nav Bar](assets/images/Deployed-page.png)
 
 
 ## Credits
